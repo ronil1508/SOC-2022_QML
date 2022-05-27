@@ -62,3 +62,10 @@ There are many interesting quantum gates other than the controlled- NOT .However
 ### Measurements in bases other than the computational basis
 It is not necessary to use the computational bases as the basis for our measurement. Any set of orthonormal vectors can be used as the basis. 
 It is possible in principle to measure a quantum system of many qubits with respect to an arbitrary orthonormal basis. However, just because it is possible in principle does not mean that such a measurement can be done easily. 
+
+### Quantum Circuits
+ A quantum circuit is to be read left to right. Each line in the circuit represents a wire in the quantum circuit. This wire does not necessarily correspond to a physical wire; it may correspond instead to the passage of time, or perhaps to a physical particle such as a photon – a particle of light – moving from one location to another through space. It is conventional to assume that the state input to the circuit is a computational basis state.
+ The peculiar differences between classical and quantum circuits are :
+ 
+ 1) We don’t allow ‘loops’, that is, feedback from one part of the quantum circuit to another; we say the circuit is _acyclic_.
+ 2) Classical circuits allow wires to be ‘joined’ together, an operation known as FANIN, with the resulting single wire containing the bitwise of the inputs. This operation is not reversible and therefore not unitary, so we don’t allow FANIN in our quantum circuits.
