@@ -125,7 +125,7 @@ The Pauli matrices give rise to three useful classes of unitary matrices when th
 
 An arbitrary unitary operator on a single qubit can be written in many ways as a combination of rotations, together with global phase shifts on the qubit. The following theorem provides a means of expressing an arbitrary single qubit rotation that will be particularly useful in later applications to controlled operations.
 
-#### Z-Y decomposition for a single qubit:
+#### Z-Y decomposition for a single qubit: 
 Suppose U is a unitary operation on a single qubit. Then there exist real numbers α, β, γ and δ such that
 
 <img src="https://user-images.githubusercontent.com/95964330/168090687-ebd36686-c3d8-43fa-ae30-5b87a791c982.png" width=23% height=23%>
@@ -133,3 +133,6 @@ Suppose U is a unitary operation on a single qubit. Then there exist real number
 Suppose U is a unitary gate on a single qubit. Then there exist unitary operators A, B, C on a single qubit such that ABC = I and 
 <img src="https://user-images.githubusercontent.com/95964330/168091337-4c154f70-6539-482c-985e-71a7db28b839.png" width=17% height=17%>
 where α is some overall phase factor.
+
+### Controlled operations
+'If A is true, then do B’. This type of _controlled_ operation is one of the most useful in computing, both classical and quantum. The prototypical controlled operation is the controlled- NOT. CNOT is a quantum gate with two input qubits, known as the control qubit and target qubit, respectively.  In terms of the computational basis, the action of the CNOT is given by |c>|t>→|c>|t ⊕ c>; that is, if the control qubit is set to |1> then thetarget qubit is flipped, otherwise the target qubit is left alone.
