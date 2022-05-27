@@ -18,3 +18,5 @@ computational basis state denoted by <img src="https://user-images.githubusercon
 An important two qubit state is the Bell state or EPR pair,
 
 <img src="https://user-images.githubusercontent.com/95964330/164911760-a353c3dd-6938-45c4-bf37-53ed46193dc2.png" width=10% height=10%>
+
+The Bell state has a property that upon measurement both it's qubits are always in the same state. That is, the measurement outcomes are _correlated_. EPR’s insights were taken up and greatly improved by John Bell, who proved an amazing result: the measurement correlations in the Bell state are stronger than could ever exist between classical systems
