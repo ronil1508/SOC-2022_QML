@@ -126,3 +126,6 @@ The Pauli matrices give rise to three useful classes of unitary matrices when th
 An arbitrary unitary operator on a single qubit can be written in many ways as a combination of rotations, together with global phase shifts on the qubit. The following theorem provides a means of expressing an arbitrary single qubit rotation that will be particularly useful in later applications to controlled operations.
 
 #### Z-Y decomposition for a single qubit:
+Suppose U is a unitary operation on a single qubit. Then there exist real numbers α, β, γ and δ such that
+
+<img src="https://user-images.githubusercontent.com/95964330/168090687-ebd36686-c3d8-43fa-ae30-5b87a791c982.png" width=23% height=23%>
