@@ -75,3 +75,9 @@ Two important elements of a quantum circuit are:
 
 1) Controlled Gates - The controlled U gate has one control qubit and n target qubits on which a n x n unitary matrix acts as an operator. </li> ![image](https://user-images.githubusercontent.com/95964330/164993180-7653680e-7c97-4d86-aac4-7ac4bb871858.png)
 2) "Meter" for measurment of the quantum bit, the measurement of a qubit collapses it's state and gives classical bits 0  or 1 as the result. </li> ![image](https://user-images.githubusercontent.com/95964330/164993191-713ae328-4c33-45ce-8788-6b28ec4c8963.png)
+
+### No Cloning Theorem
+The no cloning theorem states that it is e impossible to make a copy of an unknown quantum state. Once one qubit is measured, the state of the other one is completely
+determined, and no additional information can be gained. In this sense, the extra hidden information carried in the original qubit was lost in the first measurement, and cannot be regained. If, however, the qubit had been copied, then the state of the other qubit should still contain some of that hidden information. Therefore, a copy cannot have been created.
+
+
