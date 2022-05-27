@@ -170,3 +170,7 @@ The next Toffoli gate ANDs c3 with the product c1 · c2, changing the state of t
 In the controlled gates we have been considering, conditional dynamics on the target qubit occurs if the control bits are set to one. Of course, there is nothing special about one, and it is often useful to consider dynamics which occur conditional on the control bit being set to zero. For instance, suppose we wish to implement a two qubit gate in which the second (‘target’) qubit is flipped, conditional on the first (‘control’) qubit being set to zero. The following circuit illustrates that
 
 <img src="https://user-images.githubusercontent.com/95964330/168137717-dded19af-45da-4bfd-b932-0fb1487d7220.png" width=30% height=30%>
+
+### Measurement
+
+_Principle of deferred measurement_: Measurements can always be moved from an intermediate stage of a quantum circuit to the end of the circuit; if the measurement results are used at any stage of the circuit then the classically controlled operations can be replaced by conditional quantum operations.
