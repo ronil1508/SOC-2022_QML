@@ -137,4 +137,4 @@ where α is some overall phase factor.
 ### Controlled operations
 'If A is true, then do B’. This type of _controlled_ operation is one of the most useful in computing, both classical and quantum. The prototypical controlled operation is the controlled- NOT. CNOT is a quantum gate with two input qubits, known as the control qubit and target qubit, respectively.  In terms of the computational basis, the action of the CNOT is given by |c>|t>→|c>|t ⊕ c>; that is, if the control qubit is set to |1> then thetarget qubit is flipped, otherwise the target qubit is left alone.
 
-More generally, suppose U is an arbitrary single qubit unitary operation. A controlledU operation is a two qubit operation, again with a control and a target qubit. If the control qubit is set then U is applied to the target qubit, otherwise the target qubit is left alone; that is, |c>|t>→|c>U|t>.
+More generally, suppose U is an arbitrary single qubit unitary operation. A controlled U operation is a two qubit operation, again with a control and a target qubit. If the control qubit is set then U is applied to the target qubit, otherwise the target qubit is left alone; that is, |c>|t>→|c>U|t>.
