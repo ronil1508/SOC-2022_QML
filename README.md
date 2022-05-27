@@ -73,5 +73,5 @@ It is possible in principle to measure a quantum system of many qubits with resp
  
 Two important elements of a quantum circuit are: 
 
-1) Controlled Gates - with one control bit (similar to that in CNOT gate) and n target qubits - represented by a Unitary matrix U. </li> ![image](https://user-images.githubusercontent.com/95964330/164993180-7653680e-7c97-4d86-aac4-7ac4bb871858.png)
-2) "Meter" for measurment of the quantum bit. </li> ![image](https://user-images.githubusercontent.com/95964330/164993191-713ae328-4c33-45ce-8788-6b28ec4c8963.png)
+1) Controlled Gates - The controlled U gate has one control qubit and n target qubits on which a n x n unitary matrix acts as an operator. </li> ![image](https://user-images.githubusercontent.com/95964330/164993180-7653680e-7c97-4d86-aac4-7ac4bb871858.png)
+2) "Meter" for measurment of the quantum bit, the measurement of a qubit collapses it's state and gives classical bits 0  or 1 as the result. </li> ![image](https://user-images.githubusercontent.com/95964330/164993191-713ae328-4c33-45ce-8788-6b28ec4c8963.png)
