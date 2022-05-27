@@ -23,3 +23,5 @@ The Bell state has a property that upon measurement both it's qubits are always 
 
 ### Quantum Computation
 As in the case of classical computer the changes occuring in quantum circuits can be described using quantum computation using quantum circuits which are built of wires to carry the information around and _quantum gates_ to manipulate the information.
+#### Single Qubit gates
+Any unitary operator can act as a single qubit gate. This is because quantum gates have to be norm preserving so that the sum of individual probabilities does not exceed 1 and also quantum gates needs to be reversible. Both these properties are satisfied by unitary matrices. It can be further proved that unitarty matrices are the only class of matrices which satisfy both these requirements. The operation of a single qubit gate on a qubit can be thought as the rotation of the qubit around the Bloch sphere. 
