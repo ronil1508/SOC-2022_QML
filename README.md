@@ -28,6 +28,7 @@ Any unitary operator can act as a single qubit gate. This is because quantum gat
 All the single qubit gates act linearly. Non-linear behaviour of operators can lead to paradoxes such as - time travel, faster-than-light-communication etc.
 
 The important single qubit gates are:
-The quantum NOT gate (X gate) - 
+
+1) The quantum NOT gate (X gate) - 
 
 ![image](https://user-images.githubusercontent.com/95964330/164912638-f70b94a5-414b-4187-96b6-d88363e70f34.png)
