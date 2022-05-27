@@ -158,3 +158,10 @@ The entire circuit for the controlled U operation is as follows
 Now that we know how to condition on a single qubit being set, what about conditioning on multiple qubits? More generally, suppose we have n + k qubits, and U is a k qubit unitary operator. Then we deﬁne the controlled operation Cn(U) by the equation:
 
 <img src="https://user-images.githubusercontent.com/95964330/168104142-e1b8fe9d-6c59-4f77-aa74-f9058813d089.png" width=50% height=50%>
+
+That is, the operator U is applied to the last k qubits if the ﬁrst n qubits are all equal to one, and otherwise, nothing is done. This can be achieved as follows:
+The circuit divides up into three stages, and makes use of a small number (n − 1) of working qubits, which all start and end in the state |0>. Suppose the control qubits are in the computational basis state |c1, c2,...,cn>. The first stage of the circuit is to reversibly all the control bits c1,...,cn together to
+produce the product c1 · c2 ...cn. To do this, the first gate in the circuit ANDs c1 and c2 together, using a Toffoli gate, changing the state of the first work qubit to |c1 · c2>.
+The next Toffoli gate ANDs c3 with the product c1 · c2, changing the state of the second work qubit to |c1 · c2 · c3>. We continue applying Toffoli gates in this fashion, until the final work qubit is in the state |c1 · c2 ...cn>. Next, a U operation on the target qubit is performed. , conditional on the final work qubit being set to one. That is, U is applied if and only if all of c1 through cn are set. Finally, the last part of the circuit just reverses the steps of the first stage, returning all the work qubits to their initial state, |0>. The combined result, therefore, is to apply the unitary operator U to the target qubit, if and only if all the control bits c1 through cn are set, as desired.
+
+<img src="https://user-images.githubusercontent.com/95964330/168136833-282bac31-b5f2-4e8c-bf41-bb3d62bb3b54.png" width=30% height=30%>
