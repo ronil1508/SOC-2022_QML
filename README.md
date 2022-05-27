@@ -70,7 +70,8 @@ It is possible in principle to measure a quantum system of many qubits with resp
  1) We don’t allow ‘loops’, that is, feedback from one part of the quantum circuit to another; we say the circuit is _acyclic_.
  2) Classical circuits allow wires to be ‘joined’ together, an operation known as FANIN, with the resulting single wire containing the bitwise of the inputs. This operation is not reversible and therefore not unitary, so we don’t allow FANIN in our quantum circuits.
  3) The inverse operation, , whereby several copies of a bit are produced is also not allowed in quantum circuits. In fact, it turns out that quantum mechanics forbids the copying of a qubit, making the operation impossible!
+ 
 Two important elements of a quantum circuit are: 
 
-1. Controlled Gates - with one control bit (similar to that in CNOT gate) and n target qubits - represented by a Unitary matrix U. </li> ![image](https://user-images.githubusercontent.com/95964330/164993180-7653680e-7c97-4d86-aac4-7ac4bb871858.png)
-1. "Meter" for measurment of the quantum bit. </li> ![image](https://user-images.githubusercontent.com/95964330/164993191-713ae328-4c33-45ce-8788-6b28ec4c8963.png)
+1) Controlled Gates - with one control bit (similar to that in CNOT gate) and n target qubits - represented by a Unitary matrix U. </li> ![image](https://user-images.githubusercontent.com/95964330/164993180-7653680e-7c97-4d86-aac4-7ac4bb871858.png)
+2) "Meter" for measurment of the quantum bit. </li> ![image](https://user-images.githubusercontent.com/95964330/164993191-713ae328-4c33-45ce-8788-6b28ec4c8963.png)
