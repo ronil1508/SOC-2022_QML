@@ -174,3 +174,10 @@ In the controlled gates we have been considering, conditional dynamics on the ta
 ### Measurement
 
 _Principle of deferred measurement_: Measurements can always be moved from an intermediate stage of a quantum circuit to the end of the circuit; if the measurement results are used at any stage of the circuit then the classically controlled operations can be replaced by conditional quantum operations.
+
+_Principle of implicit measurement_: Without loss of generality, any unterminated quantum wires (qubits which are not measured) at the end of a quantum circuit may be assumed to be measured.
+
+Measurement plays the role of connecting classical and quantum worlds. 
+
+### Universal Quantum Gates
+A unitary matrix U which acts on d-dimensional Hilbert space may be decomposed into a product of two-level unitary matrices; that is, unitary matrices which act non-trivially only on two-or-fewer vector components.
