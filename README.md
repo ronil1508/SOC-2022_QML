@@ -69,3 +69,4 @@ It is possible in principle to measure a quantum system of many qubits with resp
  
  1) We don’t allow ‘loops’, that is, feedback from one part of the quantum circuit to another; we say the circuit is _acyclic_.
  2) Classical circuits allow wires to be ‘joined’ together, an operation known as FANIN, with the resulting single wire containing the bitwise of the inputs. This operation is not reversible and therefore not unitary, so we don’t allow FANIN in our quantum circuits.
+ 3) The inverse operation, , whereby several copies of a bit are produced is also not allowed in quantum circuits. In fact, it turns out that quantum mechanics forbids the copying of a qubit, making the operation impossible!
