@@ -114,4 +114,6 @@ Deutsch’s algorithm is a simple case of a more general quantum algorithm, whic
 
 _The topics covered in the Linear Algebra part of week 1 were a recollection of the topics learnt in MA106 and for refernce can be seen from QCQI_
 
-## Week 2 - A Deeper dive into Quantum Circuits
+## Week 2 - A Deeper Dive into Quantum Circuits
+### Quantum Algorithms
+The spectacular promise of quantum computers is to enable new algorithms which render feasible problems requiring exorbitant resources for their solution on a classical computer. At the time of writing, two broad classes of quantum algorithms are known which fulfill this promise. The first class of algorithms is based upon Shor’s quantum Fourier transform, and includes remarkable algorithms for solving the factoring and discrete logarithm problems, providing a striking exponential speedup over the best known classical algorithms. The second class of algorithms is based upon Grover’s algorithm for performing quantum searching. These provide a less striking but still remarkable quadratic speedup over the best possible classical algorithms.
