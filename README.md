@@ -122,3 +122,7 @@ The spectacular promise of quantum computers is to enable new algorithms which r
 The Pauli matrices give rise to three useful classes of unitary matrices when they are exponentiated, the rotation operators about the x, y, and z axes, deﬁned by the equations:
 
 <img src="https://user-images.githubusercontent.com/95964330/168089904-6daf598e-789b-4c68-8dd3-eada894cc927.png" width=40% height=40%>
+
+An arbitrary unitary operator on a single qubit can be written in many ways as a combination of rotations, together with global phase shifts on the qubit. The following theorem provides a means of expressing an arbitrary single qubit rotation that will be particularly useful in later applications to controlled operations.
+
+#### Z-Y decomposition for a single qubit:
