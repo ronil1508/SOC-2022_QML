@@ -151,7 +151,10 @@ Our ﬁrst step will be to apply the phase shift exp(iα) on the target qubit, c
 
 The operation works because A, B and C are single qubit gates such that ABC = I. So in case the control qubit is not set the target qubit passes unchanged.
 
-The circuit for the controlled U operation is as follows
+The entire circuit for the controlled U operation is as follows
 
 <img src="https://user-images.githubusercontent.com/95964330/168102460-1f1b22fc-6bcb-4582-90ee-f1eeab5af874.png" width=35% height=35%>
 
+Now that we know how to condition on a single qubit being set, what about conditioning on multiple qubits? More generally, suppose we have n + k qubits, and U is a k qubit unitary operator. Then we deﬁne the controlled operation Cn(U) by the equation:
+
+<img src="https://user-images.githubusercontent.com/95964330/168104142-e1b8fe9d-6c59-4f77-aa74-f9058813d089.png" width=50% height=50%>
