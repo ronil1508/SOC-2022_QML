@@ -149,4 +149,9 @@ Our ﬁrst step will be to apply the phase shift exp(iα) on the target qubit, c
 
 <img src="https://user-images.githubusercontent.com/95964330/168101910-0c4d3b41-dfca-4342-bd06-c96477db623c.png" width=30% height=30%>
 
-The operation works because A, B and C are single qubit gates such that ABC = I. 
+The operation works because A, B and C are single qubit gates such that ABC = I. So in case the control qubit is not set the target qubit passes unchanged.
+
+The circuit for the controlled U operation is as follows
+
+<img src="https://user-images.githubusercontent.com/95964330/168102460-1f1b22fc-6bcb-4582-90ee-f1eeab5af874.png" width=35% height=35%>
+
