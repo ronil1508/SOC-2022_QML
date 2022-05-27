@@ -60,3 +60,5 @@ The prototypical multi-qubit logic gate is the _controlled_-NOT or _CNOT_ gate -
 There are many interesting quantum gates other than the controlled- NOT .However, in a sense the controlled- and single qubit gates are the prototypes for all other gates because of the following remarkable universality result: Any multiple qubit logic gate may be composed from and single qubit gates.
 
 ### Measurements in bases other than the computational basis
+It is not necessary to use the computational bases as the basis for our measurement. Any set of orthonormal vectors can be used as the basis. 
+It is possible in principle to measure a quantum system of many qubits with respect to an arbitrary orthonormal basis. However, just because it is possible in principle does not mean that such a measurement can be done easily. 
