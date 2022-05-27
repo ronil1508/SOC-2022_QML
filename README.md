@@ -117,3 +117,8 @@ _The topics covered in the Linear Algebra part of week 1 were a recollection of 
 ## Week 2 - A Deeper Dive into Quantum Circuits
 ### Quantum Algorithms
 The spectacular promise of quantum computers is to enable new algorithms which render feasible problems requiring exorbitant resources for their solution on a classical computer. At the time of writing, two broad classes of quantum algorithms are known which fulfill this promise. The first class of algorithms is based upon Shor’s quantum Fourier transform, and includes remarkable algorithms for solving the factoring and discrete logarithm problems, providing a striking exponential speedup over the best known classical algorithms. The second class of algorithms is based upon Grover’s algorithm for performing quantum searching. These provide a less striking but still remarkable quadratic speedup over the best possible classical algorithms.
+
+### Single qubit operations
+The Pauli matrices give rise to three useful classes of unitary matrices when they are exponentiated, the rotation operators about the x, y, and z axes, deﬁned by the equations:
+
+<img src="https://user-images.githubusercontent.com/95964330/168089904-6daf598e-789b-4c68-8dd3-eada894cc927.png" width=40% height=40%>
