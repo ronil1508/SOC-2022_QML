@@ -112,4 +112,6 @@ We send the computational basis 0 and 1 through a H-gate. Then we pass the first
 
 Deutsch’s algorithm is a simple case of a more general quantum algorithm, which we shall refer to as the Deutsch–Jozsa algorithm. The Deutsch–Jozsa algorithm is used to decide if an oracle is balanced or constant. Using quantum parallelism the algorithm gives the answer in a single step. Intutively, in a constant oracle the qubits in the query register and the qubit in the target regsiter don't interfere with each other and the state of the qubit in the query regsiter doesn't change giving probability 1 of the query register being in state |00000....> when measured. Similarly, in a balanced oracle the qubits in the query and target register interfere with one another giving the probability of the qubit in query register being in state |0000....> to be 0.
 
-_The topics covered in the Linear Algebra part of week 1 were a recollection of the topics learned in MA106 and for refernce can be seen from QCQI_
+_The topics covered in the Linear Algebra part of week 1 were a recollection of the topics learnt in MA106 and for refernce can be seen from QCQI_
+
+## Week 2 - A Deeper dive into Quantum Circuits
