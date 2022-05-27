@@ -100,10 +100,15 @@ Any classical circuit can be replaced by an equivalent circuit containing only r
 Two of the bits are control bits that are unaffected by the action of the Toffoli gate. The third bit is a target bit that is flipped if both control bits are set to 1, and otherwise is left alone. Any classical circuit can be simulated using a Toffoli gate. 
 
 _Quantum parallelism_ is a fundamental feature of many quantum algorithms. Heuristically, and at the risk of over-simplifying, quantum parallelism allows quantum computers to evaluate a function f(x) for many different values of x simultaneously. 
+
 The following algorithms use quantum paralleism:
+
 1)Deutsch’s algorithm:
+
 Deutsch’s algorithm combines quantum parallelism with a property of quantum mechanics known as interference. The bried overview of steps that the algorithm follows is: 
 We send the computational basis 0 and 1 through a H-gate. Then we pass the first qubit through a H gate again. The final measurement of the first qubit gives us the result f(0) XOR f(1) in a single step which would have taken twice as many steps in any classical circuit.
+
 2)The Deutsch–Jozsa algorithm:
+
 Deutsch’s algorithm is a simple case of a more general quantum algorithm, which we shall refer to as the Deutsch–Jozsa algorithm. The Deutsch–Jozsa algorithm is used to decide if an oracle is balanced or constant. Using quantum parallelism the algorithm gives the answer in a single step. Intutively, in a constant oracle the qubits in the query register and the qubit in the target regsiter don't interfere with each other and the state of the qubit in the query regsiter doesn't change giving probability 1 of the query register being in state |00000....> when measured. Similarly, in a balanced oracle the qubits in the query and target register interfere with one another giving the probability of the qubit in query register being in state |0000....> to be 0.
 
