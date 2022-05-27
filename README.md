@@ -91,3 +91,8 @@ need to do anything. If the measurement is 01 then Bob can fix up his state by a
 <img src="https://user-images.githubusercontent.com/95964330/167312994-c528ff60-0ba9-4331-bf52-91f373f8b6d2.png" width=40% height=40%>
 
 In hindsight it seems that teleportation allows faster than light communications but this insight is incorrect. This is because Alice needs to transfer the results of her measurements through a classical communication channel. This limits the speed of information tranfer. Secondly, it appears that teleportation creates a copy of the qubit to be transferred violating the no-cloning theorem. This violation is only illusory since after the teleportation process only the target qubit is left in the original state, and the original data qubit ends up in one of the computational basis states.
+
+### Quantum Algorithms
+Any classical circuit can be replaced by an equivalent circuit containing only reversible elements, by making use of a reversible gate known as the Toffoli gate. The Toffoli gate has three input bits and three output bits. 
+
+<img src="https://user-images.githubusercontent.com/95964330/167313676-adf4aafe-49c2-43c3-a2e3-36e4832b5646.png" width=40% height=40%>
