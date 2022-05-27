@@ -129,3 +129,7 @@ An arbitrary unitary operator on a single qubit can be written in many ways as a
 Suppose U is a unitary operation on a single qubit. Then there exist real numbers α, β, γ and δ such that
 
 <img src="https://user-images.githubusercontent.com/95964330/168090687-ebd36686-c3d8-43fa-ae30-5b87a791c982.png" width=23% height=23%>
+
+Suppose U is a unitary gate on a single qubit. Then there exist unitary operators A, B, C on a single qubit such that ABC = I and 
+<img src="https://user-images.githubusercontent.com/95964330/168091337-4c154f70-6539-482c-985e-71a7db28b839.png" width=17% height=17%>
+where α is some overall phase factor.
