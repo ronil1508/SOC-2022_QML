@@ -44,4 +44,6 @@ It's operation can be seen as ![image](https://user-images.githubusercontent.com
 ![image](https://user-images.githubusercontent.com/95964330/164912666-d40c7ca7-e7fb-4559-aff2-acf71fea4742.png)
 
 The Hadamard gate is one of the most useful quantum gates, and it's operation can be visualized by considering the Bloch sphere picture. The Hadamard operation is just a rotation of the sphere about the y axis by 90◦, followed by a rotation about the x axis by 180◦
+The action of these important single qubit gates can be summarised as:
 
+<img src="https://user-images.githubusercontent.com/95964330/164912718-87d63d1e-2115-46ff-a5f8-9ea860a76961.png" width=50% height=50%>
