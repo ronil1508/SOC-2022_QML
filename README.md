@@ -35,3 +35,6 @@ The important single qubit gates are:
 
 It's operation can be seen as ![image](https://user-images.githubusercontent.com/95964330/164912741-f88a8066-09cb-4ca6-8a89-b787ed49870a.png)
 
+2) The Z gate -
+ ![image](https://user-images.githubusercontent.com/95964330/164912658-67ff1906-9302-4fd0-ad4c-58e36efc1059.png)
+
