@@ -39,3 +39,8 @@ It's operation can be seen as ![image](https://user-images.githubusercontent.com
 
 ![image](https://user-images.githubusercontent.com/95964330/164912658-67ff1906-9302-4fd0-ad4c-58e36efc1059.png)
 
+3) The Hadamard gate - 
+
+![image](https://user-images.githubusercontent.com/95964330/164912666-d40c7ca7-e7fb-4559-aff2-acf71fea4742.png)
+
+
