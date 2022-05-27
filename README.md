@@ -80,4 +80,12 @@ Two important elements of a quantum circuit are:
 The no cloning theorem states that it is e impossible to make a copy of an unknown quantum state. Once one qubit is measured, the state of the other one is completely
 determined, and no additional information can be gained. In this sense, the extra hidden information carried in the original qubit was lost in the first measurement, and cannot be regained. If, however, the qubit had been copied, then the state of the other qubit should still contain some of that hidden information. Therefore, a copy cannot have been created.
 
+### Quantum Teleportation
+Quantum teleportation is a technique for moving quantum states around, even in the absence of a quantum communications channel linking the sender of the quantum state to the recipient. It uses the fact that the qubits in the Bell state are strongly corelated with one another. We take help of our friends Alice and Bob to undertsand this concept.
+Quantum teleportation works as follows:
+1) Alice and Bob meet each other and generate an EPR pair. Both of them take one qubit from the EPR pair.
+2) Alice sends her qubits through a CNOT gate then sends the unknown qubit through the H-gate. She measures her set of qubits and sends it to Bob.
+3) Depending on Alice’s measurement outcome, Bob’s qubit will end up in one of the four possible states. In the case where the measurement yields 00, Bob doesn’t
+need to do anything. If the measurement is 01 then Bob can fix up his state by applying the X gate. If the measurement is 10 then Bob can fix up his state by applying the Z gate. If the measurement is 11 then Bob can fix up his state by applying first an X and then a Z gate.
 
+<img src="https://user-images.githubusercontent.com/95964330/167312994-c528ff60-0ba9-4331-bf52-91f373f8b6d2.png" width=40% height=40%>
