@@ -26,3 +26,8 @@ As in the case of classical computer the changes occuring in quantum circuits ca
 #### Single Qubit gates
 Any unitary operator can act as a single qubit gate. This is because quantum gates have to be norm preserving so that the sum of individual probabilities does not exceed 1 and also quantum gates needs to be reversible. Both these properties are satisfied by unitary matrices. It can be further proved that unitarty matrices are the only class of matrices which satisfy both these requirements. The operation of a single qubit gate on a qubit can be thought as the rotation of the qubit around the Bloch sphere. 
 All the single qubit gates act linearly. Non-linear behaviour of operators can lead to paradoxes such as - time travel, faster-than-light-communication etc.
+
+The important single qubit gates are:
+The quantum NOT gate (X gate) - 
+
+![image](https://user-images.githubusercontent.com/95964330/164912638-f70b94a5-414b-4187-96b6-d88363e70f34.png)
