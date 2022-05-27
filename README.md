@@ -58,3 +58,5 @@ The prototypical multi-qubit logic gate is the _controlled_-NOT or _CNOT_ gate -
 <img src="https://user-images.githubusercontent.com/95964330/164959626-410d1480-5b14-4615-8e48-73e5d12a72ed.png" width=15% height=15%>
 
 There are many interesting quantum gates other than the controlled- NOT .However, in a sense the controlled- and single qubit gates are the prototypes for all other gates because of the following remarkable universality result: Any multiple qubit logic gate may be composed from and single qubit gates.
+
+### Measurements in bases other than the computational basis
