@@ -89,3 +89,5 @@ Quantum teleportation works as follows:
 need to do anything. If the measurement is 01 then Bob can fix up his state by applying the X gate. If the measurement is 10 then Bob can fix up his state by applying the Z gate. If the measurement is 11 then Bob can fix up his state by applying first an X and then a Z gate.
 
 <img src="https://user-images.githubusercontent.com/95964330/167312994-c528ff60-0ba9-4331-bf52-91f373f8b6d2.png" width=40% height=40%>
+
+In hindsight it seems that teleportation allows faster than light communications but this insight is incorrect. This is because Alice needs to transfer the results of her measurements through a classical communication channel. This limits the speed of information tranfer. Secondly, it appears that teleportation creates a copy of the qubit to be transferred violating the no-cloning theorem. This violation is only illusory since after the teleportation process only the target qubit is left in the original state, and the original data qubit ends up in one of the computational basis states.
