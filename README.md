@@ -183,3 +183,11 @@ Measurement plays the role of connecting classical and quantum worlds.
 A unitary matrix U which acts on d-dimensional Hilbert space may be decomposed into a product of two-level unitary matrices; that is, unitary matrices which act non-trivially only on two-or-fewer vector components. An arbitrary unitary matrix on an n qubit system may be written as a product of at most 2^n−1(2^n − 1) two-level unitary matrices. For specific unitary matrices, it may be possible to find much more efficient decompositions, but there exist matrices which cannot be decomposed as a product of fewer than d − 1 two-level unitary matrices!
 
 Single qubit and CNOT gates together can be used to implement an arbitrary two-level unitary operation on the state space of n qubits.
+
+## Week 3 - A deeper dive into Qunatum Algorithms
+This week the following algorithms were covered:
+1) Quantum Fourier Transform(QFT)
+2) Quantum Phase Estimation(QPE)
+3) Shor's Algorithm
+4) Grover's search 
+_More information on these will be added shortly_
