@@ -184,7 +184,7 @@ A unitary matrix U which acts on d-dimensional Hilbert space may be decomposed i
 
 Single qubit and CNOT gates together can be used to implement an arbitrary two-level unitary operation on the state space of n qubits.
 
-## Week 3 - A deeper dive into Qunatum Algorithms
+## Week 3 - A deeper dive into Quantum Algorithms
 This week the following algorithms were covered:
 1) Quantum Fourier Transform(QFT)
 2) Quantum Phase Estimation(QPE)
