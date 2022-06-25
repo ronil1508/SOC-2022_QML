@@ -190,4 +190,5 @@ This week the following algorithms were covered:
 2) Quantum Phase Estimation(QPE)
 3) Shor's Algorithm
 4) Grover's search 
+
 _More information on these will be added shortly_
